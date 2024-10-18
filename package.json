@@ -1,0 +1,21 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "webpack": "webpack --mode=production",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "patch-package": "^8.0.0",
+    "path-browserify": "^1.0.1",
+    "postinstall-postinstall": "^2.1.0"
+  }
+}
